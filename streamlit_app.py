@@ -26,4 +26,6 @@ st.write(f"Valor del contador: {st.session_state.contador}")
 if st.button('Incrementar'):
     st.session_state.contador += 1
 
-
+if 'contador' not in st.session_state or st.button('Resetear contador'):
+    st.session_state.contador = 0
+    
