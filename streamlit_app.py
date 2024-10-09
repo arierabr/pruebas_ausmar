@@ -14,7 +14,8 @@ st.title('🏗️ Pagina para pruebas de Streamlit')
 
 tabla = pd.read_csv("data/tabla_st_01.csv", encoding='utf-8')
 
-st.write(tabla.Airport)
+
+origen = st.selectbox("Selecciones el origen", tabla.Airport)
 
 
 
