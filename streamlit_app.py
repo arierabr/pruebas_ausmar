@@ -12,6 +12,11 @@ import zipfile
 st.set_page_config(page_title='ML model builder', page_icon='🏗️')
 st.title('🏗️ Pagina para pruebas de Streamlit')
 
+tabla = pd.read_csv("data/tabla_st_01.csv", encoding='utf-8')
+
+st.write(tabla.Airport)
+
+
 
 import streamlit as st
 
