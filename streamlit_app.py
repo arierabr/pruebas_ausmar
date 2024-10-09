@@ -79,6 +79,7 @@ if st.button("Agregar tarea"):
     if new_task:
         st.session_state.todo_list.append(new_task)
 
+
 # Mostrar la lista de tareas actual
 st.write("Tareas actuales:")
 for task in st.session_state.todo_list:
