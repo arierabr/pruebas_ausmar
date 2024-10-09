@@ -28,4 +28,4 @@ if st.button('Incrementar'):
 
 if 'contador' not in st.session_state or st.button('Resetear contador'):
     st.session_state.contador = 0
-    
+
